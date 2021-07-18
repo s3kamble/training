@@ -1,0 +1,5 @@
+@mixin smallDevices{
+    @media (max-width:786px){
+        @content
+    }
+}

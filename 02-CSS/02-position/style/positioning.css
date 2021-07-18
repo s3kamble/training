@@ -1,0 +1,45 @@
+body{
+  height:200vh; 
+}
+.box{
+    width:60%;
+    height:100px;
+    border:2px solid black;
+    margin:10px auto;
+}
+
+.center-text{
+    margin:40px auto;
+    text-align: center;
+}
+
+.relative{
+    background-color: chartreuse;
+    /* position:relative;
+    left: 50px; */
+    /* Doent alter others position and does not stick to screen when scrolled */
+    
+}
+
+.absolute{
+    background-color: cyan;
+    /* position: absolute;
+    top: 50px; */
+     /* Alter others position and does not stick to screen when scrolled */
+}
+
+.fixed{
+    background-color: darkmagenta;
+    /* position:fixed;
+    top: 0px;
+    left:60px; */
+    /* Doent alter others position and sticks to scrren when scrolled */
+}
+
+.sticky{
+    background-color: black;
+    position:sticky;
+    top:10%;
+    /*  Dosent alter others position and Sticks to screen when scrolled */
+    /* relative and fixed */
+}

@@ -1,0 +1,22 @@
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin roundedBorder{
+    border-radius:40px;
+}
+
+@mixin flex-placement($direction, $justify, $align){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+//utilities 
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+//include flex row as class in html

@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    margin:100px auto;
+    width:100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition-property:background-color border;
+    animation-name: makeCircle;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes makeCircle {
+ 0%{
+     background-color: cadetblue;
+ }
+
+ 50%{
+     border-radius: 25%;
+ }
+
+ 100%{
+     border-radius: 50%;
+ }
+    
+}

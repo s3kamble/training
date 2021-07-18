@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.212);
+    height:15vh;
+}
+
+.company-logo{
+    width:35%;
+}
+
+.logo{
+    width:150px;
+
+}
+
+.nav-container{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.nav-item{
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+.btn{
+    background-color: black;
+    color:whitesmoke;
+    padding:6px;
+    border-radius: 10px;
+    
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.banner{
+    width:100vw;
+    height: 80vh;
+    border:2p solid black;
+    background-image: url("../../img/banner2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.banner-heading{
+    margin-left: 100px;;
+}
+

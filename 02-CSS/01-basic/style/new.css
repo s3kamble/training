@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width: 100vw;
+    height: 50vh;
+    border:5px solid red;
+}
+
+.box{
+    border:2px solid black;
+    width: 60%;
+    height:100px;
+    margin:20px auto
+}
+
+.center-text{
+    text-align: center;
+    margin:40px;
+}
+
+.absolute{
+    background-color: grey;
+    color:white;
+}
