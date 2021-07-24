@@ -1,0 +1,15 @@
+body > h1 {
+    text-align:center;
+}
+
+h1 + button{
+display: flex;
+margin: auto;
+}
+
+
+
+#div{
+    margin:10px;
+    text-align: center;
+}
